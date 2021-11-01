@@ -1,9 +1,9 @@
 fun main() {
     // put your code here
-    var natural: Int = readLine()!!.toInt()
-    while (natural != 1) {
-        print("$natural ")
-        if (natural % 2 == 0) natural /= 2 else natural = natural * 3 + 1
+    var num: Int = readLine()!!.toInt()
+    while (num != 1) {
+        print("$num ")
+        if (num % 2 == 0) num /= 2 else num = num * 3 + 1
     }
-    print(natural)
+    print(num)
 }
