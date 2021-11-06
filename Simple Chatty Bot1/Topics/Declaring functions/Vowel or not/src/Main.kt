@@ -1,10 +1,10 @@
 // write your function here
 fun isVowel(l: Char): Boolean {
     return l.uppercaseChar() == 'A' ||
-            l.uppercaseChar() == 'E' ||
-            l.uppercaseChar() == 'I' ||
-            l.uppercaseChar() == 'O' ||
-            l.uppercaseChar() == 'U'
+        l.uppercaseChar() == 'E' ||
+        l.uppercaseChar() == 'I' ||
+        l.uppercaseChar() == 'O' ||
+        l.uppercaseChar() == 'U'
 }
 
 fun main() {
